@@ -198,11 +198,11 @@ form li + li {
   margin-top: 1em;
 }
 
-label {
+body label {
   /* Uniform size & alignment */
   display: inline-block;
   width: 90px;
-  text-align: left;
+  text-align: left !important;
 }
 
 input,
