@@ -1,0 +1,237 @@
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.search-image{
+    width: 25px;
+}
+
+content{
+ 
+}
+
+#logo_link{
+
+}
+
+.logo{
+    width: 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a, nav div{
+    padding: 35px;
+}
+#hero-box{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-img{
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+.Own-A-Home{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.Home-grid{
+
+}
+
+.special-offer-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    margin: 50px 0;
+
+}
+
+.special-offer-image{
+    width: 30%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+#special-offer-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.special-offer-paragraph{
+    grid-column: 2/3;
+    grid-row: 2/2;
+}
+
+.specialoffer.html{
+
+}
+
+.learn-more{
+   
+}
+
+ .Get-offer{
+    width: 50%;
+    height: 20%;
+    margin: 100px;
+}
+
+.Rent-a-house-card{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.Rent-a-house-image{
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.Rent-a-house-msg{
+    
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align:center;
+    font-size: 100px;
+}
+
+.Rent-a-house-heading{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+.Book-a-viewing{
+   
+}
+
+.rent-n-sale{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#Rent-in-rexburg{
+    grid-column: 1/4 ;
+    grid-row: 1/3;
+    width: 50%;
+}
+
+#Rent-in-rexburg p{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: burlywood;
+    padding: 5%;
+}
+
+#Houses-for-sale{
+    grid-column: 5/8 ;
+    grid-row: 1/3;
+}
+
+.Houses-for-sale-image img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 60%;
+}
+
+.rent-list{
+
+}
+
+.houses-for-sale .Houses-for-sale-image{
+    grid-column: 2/4;
+    grid-row: 1/4;
+}
+
+footer{
+    background-color:antiquewhite ;
+    color: var(--paragraph-color-on-white);
+    font-family: Roboto;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    color: var(--paragraph-color-on-white);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: var(--secondary-color);
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.site-plan-image{
+    width: 10%;
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
