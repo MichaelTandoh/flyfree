@@ -354,22 +354,26 @@ footer .social img{
     position: relative;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
 }
 
 .heroimg1 img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 .heroimg1 h1,
 .heroimg1 h3,
 .heroimg1 a {
-    color:#717171;
-    margin: 0;
-    z-index: 1;
+    color:#000000;
+    margin: -0;
+    z-index: -1;
 }
+
+img{
+    max-width: 100%;
+}
+
+
+   
 
 .heroimg1 h1 {
     font-size: 3rem;
@@ -391,12 +395,10 @@ footer .social img{
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
