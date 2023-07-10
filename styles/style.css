@@ -233,9 +233,7 @@ footer .social img{
 }
 
 #log-cabin-box{
-    display: grid;
-    grid-template-columns: repeat(3 1fr );
-    text-align: center;
+   
 }
 #log-cabin-box img{
     width: 100%;
@@ -324,12 +322,68 @@ footer .social img{
 }
 
 .background{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #bbb;
 }
 
 
 
  {box-sizing:border-box}
+
+ footer{
+    background-color:antiquewhite ;
+    color: var(--paragraph-color-on-white);
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+ /* mobile homes */
+ #content {
+    max-width: 2000px;
+}
+
+.mobile-home-hero{
+    text-align: center;
+}
+
+#hero-box {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.heroimg1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heroimg1 h1,
+.heroimg1 h3,
+.heroimg1 a {
+    color:#717171;
+    margin: 0;
+    z-index: 1;
+}
+
+.heroimg1 h1 {
+    font-size: 3rem;
+}
+
+.heroimg1 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.heroimg1 a {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
 
 .slideshow-container {
   max-width: 1000px;
