@@ -156,32 +156,32 @@ grid-row: 1/2;
 
 .rent-n-sale{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(8, 1fr) 20px;
+    margin: 0% 5%;
+    gap: 5%;
 }
 
 #Rent-in-rexburg{
-    grid-column: 1/4 ;
+    grid-column: 1/5 ;
     grid-row: 1/3;
-    width: 50%;
+    background-color: burlywood;
 }
 
 #Rent-in-rexburg p{
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: burlywood;
-    padding: 5%;
+    padding: 0px 5%;
 }
 
 #Houses-for-sale{
-    grid-column: 5/8 ;
+    grid-column: 5/9 ;
     grid-row: 1/3;
 }
 
 .Houses-for-sale-image img{
     margin-top: 100px;
     margin-bottom: 100px;
-    width: 60%;
+    width: 100%;
 }
 
 .houses-for-sale .Houses-for-sale-image{
