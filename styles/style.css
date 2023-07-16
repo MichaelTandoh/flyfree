@@ -188,9 +188,8 @@ grid-row: 1/2;
     width: 100%;
 }
 
-.houses-for-sale .Houses-for-sale-image{
-    grid-column: 2/4;
-    grid-row: 1/4;
+.houses-for-sale {
+    grid-column: 6/8;
 }
 
 footer{
@@ -236,6 +235,10 @@ footer .social img{
     text-align: center;
 }
 
+.log-cabin h4{
+    padding-bottom: 50px;
+}
+
 #log-cabin-box{
    
 }
@@ -278,6 +281,12 @@ footer .social img{
     padding-bottom: 10%;
 }
 
+.background {
+    background-color: #000;
+    padding: 20px;
+    color: #000000;
+  }
+  
 .housenumber{
     text-align: center;
 }
@@ -304,6 +313,10 @@ footer .social img{
 
 .log-cabin-hero2 img{
     width: 100%;
+}
+
+.log-cabin-hero2 h2{
+    text-align: center;
 }
 
 .house2{
@@ -358,6 +371,10 @@ footer .social img{
 
 #mobile-hero-box {
     width: 100%;
+}
+
+.mobile-home-hero hr {
+    margin-bottom: 50px;
 }
 
 #mobile-hero-box button{
